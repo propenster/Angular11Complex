@@ -1,0 +1,49 @@
+<div class="container">
+    
+
+    <!--For Page-->
+<div class="page">
+    <!--For Row containing all card-->
+    <h2 class="my-2 display-4">Books</h2>
+
+    <div class="row">
+        <!--Card 1-->
+        
+        <!--Card 2-->
+        <div class="col-lg-4" *ngFor="let book of Books">
+            <div  class="col-sm" >
+                <div class="card card-cascade card-ecommerce wider shadow mb-5 ">
+                    <!--Card image-->
+                    <div class="view view-cascade overlay text-center"> <img class="card-img-top" src="{{ book.imageUrl }}" alt=""/> <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a> </div>
+                    <!--Card Body-->
+                    <div class="card-body card-body-cascade text-center">
+                        <!--Card Title-->
+                        <h4 class="card-title"><strong><a href="">{{ book.title }}</a></strong></h4>by <span>{{ book.author }}</span>
+                        <!--Card Description-->
+                        <p class="card-text">{{ book.description }} </p>
+                        <p class="price">${{ book.price }}</p> <!-- Card Rating-->
+                        <ul class="row rating">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <!--Card footer-->
+                        <div class="card-footer">
+                            <p>ADD TO CART</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+    </div>
+</div>
+
+
+</div>

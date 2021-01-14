@@ -1,0 +1,49 @@
+<div class="container">
+    
+
+    <!--For Page-->
+<div class="page">
+    <!--For Row containing all card-->
+    <h2 class="my-2 display-4">Products</h2>
+
+    <div class="row">
+        <!--Card 1-->
+        
+        <!--Card 2-->
+        <div class="col-lg-12">
+            <div  class="col-sm" >
+                <div class="card card-cascade card-ecommerce wider shadow mb-5 ">
+                    <!--Card image-->
+                    <div class="view view-cascade overlay text-center"> <img class="card-img-top" src="{{ productObj.imageUrl }}" alt=""/> <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a> </div>
+                    <!--Card Body-->
+                    <div class="card-body card-body-cascade text-center">
+                        <!--Card Title-->
+                        <h4 class="card-title"><strong><a routerLink="/shop/products/{{ productObj.id }}">{{ productObj.name }}</a></strong></h4>
+                        <!--Card Description-->
+                        <p class="card-text">Comes with advance sensors, this is a perfect match for photographers. </p>
+                        <p class="price">${{ productObj.price }}</p> <!-- Card Rating-->
+                        <ul class="row rating">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <!--Card footer-->
+                        <div class="card-footer">
+                            <p>ADD TO CART</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+    </div>
+</div>
+
+
+</div>

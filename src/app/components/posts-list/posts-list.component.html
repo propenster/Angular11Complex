@@ -1,0 +1,21 @@
+<div class="container mb-4">
+<a routerLink="/addPost" class="btn btn-success">Create a New Post</a>
+
+<div class="row">
+<div class="col-lg-4 pl-2 pr-2 pt-2 px-2" *ngFor="let post of Posts">
+  <div class="card">
+    <img src="https://s29843.pcdn.co/blog/wp-content/uploads/sites/2/2019/06/YouTube-Thumbnail-Sizes.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><a routerLink="/posts/{{post.id}}">{{ post.title }}</a></h5>
+      <p class="card-text"> {{ post.body }}</p>
+      <p class="card-text"><small class="text-muted"><i class="fa fa-clock-o"></i> Last updated 3 mins ago</small></p>
+      <a class="btn btn-success" routerLink="/editPost/{{post.id}}">Edit Post</a>
+    </div>
+  </div>
+
+
+</div>
+
+  </div>
+
+  </div>

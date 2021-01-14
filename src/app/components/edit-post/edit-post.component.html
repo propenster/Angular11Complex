@@ -1,0 +1,28 @@
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-12 mb-4">
+
+            <form class="form col-lg-12">
+            <legend>Create Post</legend>
+
+                <div class="form-group">
+                <label for="title">Title</label>
+                    <input type="text" class="form-control" name="title" [(ngModel)]="postObj.title" placeholer="Enter post title" />
+                </div>
+
+                <div class="form-group">
+                    <textarea class="form-control" rows="10" cols="80" [(ngModel)]="postObj.body" name="body"></textarea>
+                </div>
+
+                <div class="form-group row">
+                <button class="btn btn-success btn-lg btn-block col-lg-6" (click)="updatePost(postObj.id, postObj)" >Edit Post</button>
+                <button class="btn btn-danger btn-lg btn-block col-lg-6" (click)="delete(postObj.id)">Delete Post</button>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</div>

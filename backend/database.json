@@ -1,0 +1,145 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Amy Ferra Fowler",
+      "email": "amy@gmail.com",
+      "phone": "202-555-0163"
+    },
+    {
+      "id": 2,
+      "name": "Sheldon Cooper",
+      "email": "sheldon@gmail.com",
+      "phone": "202-555-0182"
+    },
+    {
+      "id": 3,
+      "name": "Raj Koothrappali",
+      "email": "raj@gmail.com",
+      "phone": "202-555-0183"
+    },
+    {
+      "name": "Joshua Ajiniran",
+      "email": "joshuajiniran@gmail.com",
+      "phone": "08136286902",
+      "id": 5
+    },
+    {
+      "name": "Faith Olusegun",
+      "email": "faitholusegun60@gmail.com",
+      "phone": "08109354862",
+      "id": 6
+    },
+    {
+      "name": "Joe Smith",
+      "email": "jsmith@rocketmail.com",
+      "phone": "8192929292",
+      "id": 7
+    },
+    {
+      "name": "Justin Mitchel",
+      "email": "jmitch@codingentrepreneurs.com",
+      "phone": "7111111111111",
+      "id": 8
+    },
+    {
+      "name": "Faith Emmanuel Olusegun",
+      "email": "faitholusegun60@gmail.com",
+      "phone": "09299292",
+      "id": 9
+    },
+    {
+      "name": "Tomide Osuolale",
+      "email": "tomide.osuolale@fidelitybank.ng",
+      "phone": "0816262662622",
+      "id": 10
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "JAVA Software Engineer Trainee (Intern)",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "id": 2,
+      "title": "Welcome to DayLight",
+      "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    },
+    {
+      "id": 3,
+      "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+      "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    },
+    {
+      "id": 4,
+      "title": "eum et est occaecati",
+      "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+    },
+    {
+      "id": 5,
+      "title": "nesciunt quas odio",
+      "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+    },
+    {
+      "id": 6,
+      "title": "dolorem eum magni eos aperiam quia",
+      "body": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
+    },
+    {
+      "id": 7,
+      "title": "magnam facilis autem",
+      "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+    },
+    {
+      "id": 8,
+      "title": "Quality Assurance Testing Engineering Intern at Microsoft Nigeria",
+      "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
+    },
+    {
+      "id": 9,
+      "title": "nesciunt iure omnis dolorem tempora et accusantium",
+      "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
+    },
+    {
+      "id": 10,
+      "title": "optio molestias id quia eum",
+      "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+    },
+    {
+      "id": 11,
+      "title": "et ea vero quia laudantium autem",
+      "body": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi"
+    },
+    {
+      "id": 12,
+      "title": "in quibusdam tempore odit est dolorem",
+      "body": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio"
+    },
+    {
+      "title": "Quality Assurance Testing Engineering Intern at Microsoft Nigeria",
+      "body": "Welcome to Microsoft, Where everyone matters.",
+      "id": 13
+    },
+    {
+      "title": "C# .NET Intern Kuda",
+      "body": "There is an opening for a C# .NET Developer.., \n\nNow you can click on the posts link in the page, which will show the JSON data given in db.json file now that we have our server and API running.\n \nTest it with a tool like POSTMAN. Initiate a HTTP GET request to http://localhost:3000/posts shows the following result,",
+      "id": 15
+    },
+    {
+      "title": "UI/UX Intern needed at Kuda ",
+      "body": "Using the ALTER TABLE statement to add columns to a table automatically adds those columns to the end of the table. If you want the columns in a specific order in the table, use SQL Server Management Studio. However, note that this is not a database design best practice. \n\n",
+      "id": 16
+    },
+    {
+      "title": "Hello, world!",
+      "body": "This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.",
+      "id": 17
+    },
+    {
+      "title": "UI/UX Intern needed at Kudassssssssssssssss",
+      "body": "Best practice is to specify the order in which the columns are returned at the application and query level. You should not rely on the use of SELECT * to return all ",
+      "id": 18
+    }
+  ]
+}
